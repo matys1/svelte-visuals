@@ -1,13 +1,13 @@
 import { publish } from 'gh-pages';
 
 publish(
-    'public', // path to public directory
+    'build', // path to build directory containing static assets
     {
         branch: 'gh-pages',
-        repo: 'https://github.com/matys1/svelte-visuals.git', // Update to point to your repository  
+        repo: 'https://github.com/matys1/svelte-visuals.git',
         user: {
-            name: 'matys1', // update to use your name
-            email: 'ragout.burdens0n@icloud.com' // Update to use your email
+            name: 'matys1',
+            email: 'ragout.burdens0n@icloud.com'
         }
     },
     () => {
