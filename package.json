@@ -13,18 +13,20 @@
 		"deploy": "touch build/.nojekyll && node ./gh-pages.js"
 	},
 	"devDependencies": {
-		"@playwright/test": "^1.29.2",
-		"@sveltejs/adapter-static": "^1.0.5",
-		"@sveltejs/kit": "^1.2.2",
-		"eslint": "^8.32.0",
-		"eslint-config-prettier": "^8.6.0",
-		"eslint-plugin-svelte3": "^4.0.0",
+		"@playwright/test": "^1.35.1",
+		"@sveltejs/adapter-static": "^2.0.2",
+		"@sveltejs/kit": "^1.20.5",
+		"eslint": "^8.43.0",
+		"eslint-config-prettier": "^8.8.0",
 		"gh-pages": "^5.0.0",
-		"prettier": "^2.8.3",
-		"prettier-plugin-svelte": "^2.9.0",
-		"svelte": "^3.55.1",
-		"vite": "^4.0.4",
-		"vitest": "^0.27.3"
+		"prettier": "^2.8.8",
+		"prettier-plugin-svelte": "^2.10.1",
+		"svelte": "^4.0.0",
+		"vite": "^4.3.9",
+		"vitest": "^0.32.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"eslint-plugin-svelte": "^2.31.0"
+	}
 }
